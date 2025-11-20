@@ -19,14 +19,13 @@ This project is a MERN stack application deployed to production with CI/CD pipel
 1. Clone the repo
 2. Run `npm install`
 3. Create `.env.production` and set `REACT_APP_API_URL`
-4. Build with `npm run build` and deploy to Vercel/Netlify
+4. Build with `npm run build` and deploy to Vercel
 
 ## CI/CD
 - Frontend CI: `frontend-ci.yml`
 - Frontend CD: `frontend-cd.yml`
 - Backend CI: `backend-ci.yml`
 - Backend CD: `backend-cd.yml`
-- Screenshots of CI/CD pipelines: *(insert screenshots here)*
 
 ## Monitoring
 - Health check endpoint: `/health`
