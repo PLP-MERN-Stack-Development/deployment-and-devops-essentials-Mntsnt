@@ -1,0 +1,17 @@
+name: Backend CD
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Deploy to Render
+        run: |
+          echo "Auto-deployment to Render is configured via GitHub integration."
+          echo "Render will deploy the latest push on main branch."
