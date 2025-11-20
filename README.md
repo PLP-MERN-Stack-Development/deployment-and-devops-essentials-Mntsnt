@@ -26,7 +26,7 @@ This project is a MERN stack application deployed to production with CI/CD pipel
 - Frontend CD: `frontend-cd.yml`
 - Backend CI: `backend-ci.yml`
 - Backend CD: `backend-cd.yml`
-- [Screenshot of CI/CD pipeline in action](screenshots/workflow.png)
+- [Screenshot of CI/CD pipeline in action](screenshot/workflow.png)
 
 ## Monitoring
 - Health check endpoint: `/health`
